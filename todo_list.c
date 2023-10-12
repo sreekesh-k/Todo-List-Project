@@ -403,6 +403,7 @@ void menu()
         case 4: // POINTS
             system("cls");
             printf("You have %d point(s)", points);
+            Sleep(3000);
             if (points == 0)
             {
                 printf("Complete tasks to earn points\n");
