@@ -391,7 +391,7 @@ void menu()
             switch (ch)
             {
             case 1:
-                ch = delete (ch); // deleting
+                ch = delete (ch); // deleting̥
                 break;
             case 2:
                 ch = completed(1); // marking as complete
