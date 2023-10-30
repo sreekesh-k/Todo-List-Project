@@ -35,11 +35,11 @@ an office to see which employee has most performance
 # WHAT IS UNIQUE? 
 1. Added a small loading screen and other animation to get a real application like feel. 
 2. Added points:
->  +Completing task will increase the points.
-> +If a task is deleted before its completion, user will lose points as it is 
+ + Completing task will increase the points.
+ +If a task is deleted before its completion, user will lose points as it is 
    assumed that the user could complete the task. 
 3. In this to-do list I have tried to show the function call stack in the following way: 
-> - When there is no task, and user tries to delete, manage or view the tasks 
+ - When there is no task, and user tries to delete, manage or view the tasks 
   It will ask suggestion like “Would you like to add task”. Then it calls the 
   add function from the view function.
 
@@ -48,8 +48,8 @@ an office to see which employee has most performance
   |view()|
   |menu()|
   |main()|
-> + Now if we select ‘back’ from the add function, it will take us back to the view menu.
->* Similarly there is a function stack maintained for each menu functions, to 
+ + Now if we select ‘back’ from the add function, it will take us back to the view menu.
+* Similarly there is a function stack maintained for each menu functions, to 
     provide a good user experience. 
  
 
